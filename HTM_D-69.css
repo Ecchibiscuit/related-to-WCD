@@ -1,0 +1,65 @@
+﻿/* 
+   Revisions Bookstore and Cafe style sheet 
+   Filename: styles.css
+
+   Author:   Jacob Lee
+   Date:     01/05/2016
+   HTML5 and CSS3 Illustrated Unit D, Visual Workshop
+ */
+
+/* body and page container */
+body {
+   background-color: grey;
+}
+.container {
+   background-color: burlywood;
+   width: 600px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+/* headings */
+header {
+   text-align: center;
+   color: navy;
+   background-color: lightblue;
+   padding: 0.2em;
+    position: relative;
+}
+
+/* main content */
+article {
+   background-color: white;
+   float: right;
+   padding: 2.5em 0em;
+   width: 65%;
+   position: relative;
+}
+/* Article H2 */
+H2 {
+  padding: 0em 0.3em 0.5em 0.3em;
+}
+/* Article P */
+P {
+  padding: 0.1em 1.45em 1em;
+}
+/* sidebar */
+aside { 
+   background-color: burlywood;
+   width: 25%;
+   padding: 1em 1em;
+}
+
+/* footer section */
+footer {
+   color: navy;
+   background-color: lightblue;
+   text-align: center;
+   clear: right;
+   padding: 0.5em;
+}
+
+body, div, h1, h2, p {
+  margin:0;
+  padding:0;
+}
